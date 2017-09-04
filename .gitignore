@@ -9,6 +9,8 @@
 **/tmp
 **/out-tsc
 **/typings
+**/log
+**/logs
 **/.log
 **/.lock
 
