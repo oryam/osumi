@@ -20,6 +20,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "osu",
       "styles": [
+        "assets/material/material-icons.css",
         "styles.scss"
       ],
       "scripts": [],

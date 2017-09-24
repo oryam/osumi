@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { ItemService } from '../../../service/provider/item.service';
 import { Item } from '../../../domain/item.model';
-import { SearchResult } from "../../../domain/searc-result.model";
+import { SearchResult } from "../../../domain/search-result.model";
 
 
 @Component( {

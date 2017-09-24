@@ -1,4 +1,8 @@
-<h2>Items</h2>
-<div *ngFor="let item of items">
-	{{item|json}}
+<div class="osu-item-list">
+	<h2>Items</h2>
+	<div *ngFor="let item of items" fxLayout fxLayoutAlign="space-around start">
+		<div>{{item.code}}</div>
+		<div>{{item.value}}</div>
+	</div>
+	<button type="button" md-raised-button><md-icon>check</md-icon> Button</button>
 </div>

@@ -5,7 +5,7 @@ import { Observable } from 'rxjs/Observable';
 import { HttpService } from './http.service';
 import { SearchResultView, ItemDetailView } from './web-api.model';
 import { Item } from '../../domain/item.model';
-import { SearchResult } from "../../domain/searc-result.model";
+import { SearchResult } from "../../domain/search-result.model";
 
 @Injectable()
 export class ItemService extends HttpService {
