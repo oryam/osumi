@@ -25,6 +25,13 @@
         <downloadJavadocs>true</downloadJavadocs>
     </properties>
 
+    <repositories>
+	    <repository>
+            <id>Local repository</id>
+            <url>file://${project.basedir}/../lib</url>
+        </repository>
+	</repositories>
+
     <!--repositories>
         <repository>
         <id>spring-snapshots</id>
