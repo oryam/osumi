@@ -5,6 +5,7 @@ import static java.util.stream.Collectors.toList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -24,6 +25,7 @@ import com.oryam.service.osumi.web.config.RestApiUrlConfig;
 
 @RestController
 @RequestMapping(path = RestApiUrlConfig.CONTEXT_URL)
+@CrossOrigin
 public class ItemWebResource {
 
     @Autowired
